@@ -92,7 +92,36 @@
             width: 153
         }           
     });
-	 
+
+	var $catsfilter = $('.cats-filter');
+	$catsfilter.find('a').click(function(){
+		var currentOption = $(this).attr('data-filter');
+		$(this).parent().parent().find('a').removeClass('current');
+		$(this).addClass('current');
+	});
+	var $plist = $('#portfolio-list');
+	var $pfilter = $('#portfolio-filter');
+
+	$plist.isotope({
+		filter : '*',
+		layoutMode : 'masonry',
+		animationOptions : {
+			duration : 750,
+			easing : 'linear'
+		}
+	});
+	$pfilter.find('a').click(function(){
+		var selector = $(this).attr('data-filter');
+		$plist.isotope({
+			filter : selector,
+			animationOptions : {
+				duration : 750,
+				easing   : 'linear',
+				queue    : false,
+			}
+	});
+		return false;
+	});
 	/* ---------------------------------------------------------------------- */
 	/*	Menu
 	/* ---------------------------------------------------------------------- */

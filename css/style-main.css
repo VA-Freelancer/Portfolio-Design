@@ -1,8 +1,7 @@
-  header {
+header {
     position: relative;
     overflow: visible;
 }
- 
 button:focus {
     outline: 0px dotted;
     outline: 0px auto -webkit-focus-ring-color;
@@ -43,17 +42,15 @@ ul.socialicons.main {
     box-shadow: 0 0 0 0 rgb(101, 100, 100);    
     background-color: #fff;
     cursor: pointer;
-    color: #cf455c;
+    color: #09F;
     font-size: 20px;
         
 }
-
 /* aligns caption to center */
 .mfp-title {
     text-align: center;
     padding: 6px 0;
 }
-
 p,
 ul,
 li,
@@ -86,7 +83,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     font-family: 'Oswald', sans-serif !important;
 }
 .left-name h2 span {
-    color: #cf455c;
+    color: #09F;
     float: left;
     width: 100%;
     margin-top: -11px;
@@ -101,7 +98,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     margin: 10px 0px 20px;
     border-radius: 50px;
 	color: #fff;
-	background-color:#cf455c;
+	background-color:#09F;
 }
 .left-name p {
     color: #383838;
@@ -117,7 +114,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     font-size: 14px;
 }
 .text-color {
-    color: #cf455c;
+    color: #09F;
 }
 /* .right-skills:after,.right-skills:before { */
     /* content: ""; */
@@ -139,7 +136,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     text-transform: uppercase;
 }
 .ex-heading h2 {
-    background: #cf455c;
+    background: #09F;
     color: #fff;
     font-weight: 700;
     letter-spacing: 2px;
@@ -147,10 +144,10 @@ h6{font-family: 'Oswald', sans-serif!important;}
     font-size: 25px;
 }
 .ex-box h2 {
-    background: #cf455c;
+    background: #09FF;
     color: #fff;
     font-size: 17px;
-   line-height: 17px;
+    line-height: 17px;
     display: inline-block;
     padding: 5px 21px;
     font-weight: 600 !important;
@@ -189,7 +186,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     float: right;
     padding: 0px 36px;
     position: relative;
-    border-left: 0px solid #cf455c;
+    border-left: 0px solid #09F;
 }
 .heading-skills h3 {
     color: #fff;
@@ -232,6 +229,9 @@ h6{font-family: 'Oswald', sans-serif!important;}
     padding: 35px 35px 35px 35px;
     margin-left: 34px;
 }
+.eduction-right .row.no-margin{
+    margin-bottom: 20px;
+}
 .eduction-right .ex-box {
     padding: 27px 27px 0px 0px;
 }
@@ -243,12 +243,12 @@ h6{font-family: 'Oswald', sans-serif!important;}
     letter-spacing: 2px;
     font-weight: 400;
 }
- .eduction-right .ex-box p {
+.eduction-right .ex-box p {
     color: #fff;
-     font-weight: 400;
+    font-weight: 400;
 }
 .qr-box {
-    background: #cf455c;
+    background: #09F;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -283,7 +283,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
 }
 .address-right-box i.fa {
     margin-right: 15px;
-    color: #cf455c;
+    color: #09F;
     font-size: 20px;
 }
 .col-md-6.no-padding.bg-color-left {
@@ -303,7 +303,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
     font-weight: 700;     
     width: 68px;
     height: 68px;
-    border: 5px solid #cf455c;
+    border: 5px solid #09F;
     border-radius: 50%;
     text-align: center;
     padding-top: 8px;
@@ -323,14 +323,14 @@ h6{font-family: 'Oswald', sans-serif!important;}
     top: 68px;
 }
 .bg-warning {
-    background-color: #cf455c!important;
+    background-color: #09F!important;
 }
 button.setting-icon {
     height: 30px;
     width: 30px;
     position: relative;
     top: 2px;
-    background: #cf455c;
+    background: #09F;
     color: #fff;
     border: 2px solid #fff;
 }
@@ -450,23 +450,23 @@ button#green-color {
     color: #cf455c;
 }
 #blue .bg-warning {
-    background-color: blue!important;
+    background-color: #09F!important;
 }
 #blue .sn {
-    border: 5px solid blue;
+    border: 5px solid #09F;
 }
 #blue .address-right-box i.fa {
-    color: blue;
+    color: #09F;
 }
 #blue .qr-box {
-    background: blue;
+    background: #09F;
 }
 #blue .ex-box h2 {
-    background: blue;
+    background: #09F;
     color: #fff
 }
 #blue .ex-heading h2 {
-    background: blue;
+    background: #09F;
     color: #fff;
 }
 #blue .text-color {
@@ -477,7 +477,7 @@ button#green-color {
 }
 #blue .left-name.bg-color-1 h5 {
 	color: #fff;
-	background-color: blue;
+	background-color: #09F;
 	
 }
 /* blue color */
@@ -587,7 +587,7 @@ button#green-color {
   opacity: 1;
 }
 .form-control:focus {
-    border-color: #cf455c;
+    border-color: #09F;
     box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
 }
 .col-md-6.no-padding.bg-color-left {
